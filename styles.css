@@ -1,0 +1,78 @@
+/* comentariossss
+comentarios
+ */
+
+ * {
+
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+ }
+
+ body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffffff ;
+ }  
+
+ .tarjeta {
+    position: center;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(76, 69, 52, 0.4);
+    background-color: rgb(255, 170, 244);
+ }
+
+ .tarjeta .contenido {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 0.5%;
+ }
+ 
+ .tarjeta .contenido .imagen {
+    height: 40%;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+ }
+
+ .tarjeta .contenido .imagen img {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-style:solid;
+   border-color:rgb(216, 93, 192);
+   border-width: 10px;
+ }
+ .rrss {
+      
+
+ }
+ .f {
+   padding: 10px;
+   background-color: rgb(255, 170, 238);
+   width: 100%;
+ }
+
+ .fondo {
+   display: flex;
+   background-color: rgb(76, 74, 74);
+   width: 300px;
+   height: 450px;    
+   align-items: center;
+   justify-content: center;
+ }
+ .fondo .tarjeta {
+   align-items: center;
+ }
